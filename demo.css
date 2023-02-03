@@ -1,0 +1,41 @@
+  h1 {
+    color: red;
+    font-weight: bold;
+      }
+      p,li{
+        color: green;
+      }
+      li{
+        list-style-type: circle;
+      }
+      .special {
+        color: orange;
+        font-weight: bold;
+      }
+      li em {
+        color: rebeccapurple;
+      }
+      em{
+        color: lime
+      }
+      h1 + p + p{
+        font-size: 200%;
+      }
+      a:link {
+        color: pink;
+      }
+      
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        text-decoration: circle;
+      }
+            
+            
+      body h1 + p .special {
+        color: yellow;
+        background-color: black;
+        padding: 5px;
+      }
+      
