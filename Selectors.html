@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="/home/rathishsampath/Documents/Aspire/cssselectors.css">
+</head>
+<body>
+    <h2 class="color design">Universal selectors</h2>
+    <p class="para">
+        <span class="green"> This green in para</span> This red color</p>
+        <p>this is rathish<a>and he is good in<strong> driving</strong></a></p>
+        <p>HE is very much intersted in <a>driving only the <strong>cars</strong></a></p>
+        <h2 class="color design">Type selector</h2>
+        <span>Here's a span with some text.</span>
+<p>Here's a p with some text.</p>
+<span>Here's a span with more text.</span>
+<h2 class="color design">Class selectors</h2>
+<p class="red">This paragraph has red text.</p>
+<p class="red yellow-bg">
+  This paragraph has red text and a yellow background.
+</p>
+<p class="red fancy">This paragraph has red text and "fancy" styling.</p>
+<p>This is just a regular paragraph.</p>
+<h2 class="color design">Id selectors</h2>
+<div id="identified">This div has a special ID on it!</div>
+<div>This is just a regular div.</div>
+<h2 class="color design">Attribute selector</h2>
+<ul>
+    <li><a href="#internal">Internal link</a></li>
+    <li><a href="http://example.com">Example link</a></li>
+    <li><a href="#InSensitive">Insensitive internal link</a></li>
+    <li><a href="http://example.org">Example org link</a></li>
+    <li><a href="https://example.org">Example https org link</a></li>
+  </ul>
+  <div lang="en-us en-gb en-au en-nz">Hello World!</div>
+<div lang="pt">Olá Mundo!</div>
+<div lang="zh-CN">世界您好！</div>
+<div lang="zh-TW">世界您好！</div>
+<div data-lang="zh-TW">世界您好！</div>
+<ol type="A">
+    <li>
+      Red background for case-insensitive matching (default for the type selector)
+    </li>
+  </ol>
+  <ol type="b">
+    <li>Lime background if `s` modifier is supported (case-sensitive match)</li>
+  </ol>
+  <ol type="B">
+    <li>Grey background if `s` modifier is supported (case-sensitive match)</li>
+  </ol>
+  <ol type="C">
+    <li>
+      Green background if `i` modifier is supported (case-insensitive match)
+    </li>
+  </ol>
+  <h2 class="color design">Selector List</h2>
+  <h2 class="color design">Descendant combinator</h2>
+  
+</body><ul>
+    <li>
+      <div>Item 1</div>
+      <ul>
+        <li>Subitem A</li>
+        <li>Subitem B</li>
+      </ul>
+    </li>
+    <li>
+      <div>Item 2</div>
+      <ul>
+        <li>Subitem A</li>
+        <li>Subitem B</li>
+      </ul>
+    </li>
+  </ul>
+  <h2 class="color design">child combinator</h2>  
+  <div>
+    <span>Span #1, in the div.
+      <span>Span #2, in the span that's in the div.</span>
+    </span>
+  </div>
+  <span>Span #3, not in the div at all.</span>
+  <h2 class="color design">General sibling combinator</h2>
+  <span>This is not red.</span>
+<p>Here is a paragraph.</p>
+<code>Here is some code.</code>
+<span>And here is a red span!</span>
+<span>And this is a red span!</span>
+<code>More code…</code>
+<div>How are you?</div>
+<p>Whatever it may be, keep smiling.</p>
+<h1>Dream big</h1>
+<span>And yet again this is a red span!</span><br>
+<span>And yet again this is a red span!</span>
+<h2 class="color design">Adjacent sibling combinator</h2>
+<ul>
+    <li>One</li>
+    <li>Two!</li>
+    <li>Three</li>
+  </ul>
+  
+  </html>
