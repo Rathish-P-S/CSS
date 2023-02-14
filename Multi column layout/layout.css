@@ -1,25 +1,30 @@
-.box{
+.box {
     text-align: center;
-    color:chartreuse;
+    color: chartreuse;
     background-color: black;
 }
-#col{
+
+#col {
     columns: 3;
 }
+
 #col1 {
     column-count: 2;
-  }
-  #wid{
+}
+
+#wid {
     column-width: 200px;
-  }
-  #columns_4 {
+}
+
+#columns_4 {
     columns: 4;
-  }
-  #columns_12 {
+}
+
+#columns_12 {
     columns: 15 5em;
-  }
-  #gap{
-    columns:3;
-    column-gap:2em;
-  }
-    
+}
+
+#gap {
+    columns: 3;
+    column-gap: 2em;
+}
