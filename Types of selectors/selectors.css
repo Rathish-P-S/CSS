@@ -1,119 +1,139 @@
-*.para{
+*.para {
     color: black;
 }
-*.green{
-    color:yellowgreen;
+
+*.green {
+    color: yellowgreen;
 }
-a{
-    color:red;
+
+a {
+    color: red;
 }
+
 span {
     background-color: skyblue;
-  }
-  .color{
-    color:darkmagenta;
-  }
-  .red {
+}
+
+.color {
+    color: darkmagenta;
+}
+
+.red {
     color: rgb(51, 65, 255);
-  }
-  
-  .yellow-bg {
+}
+
+.yellow-bg {
     background: #ffa;
-  }
-  
-  .fancy {
+}
+
+.fancy {
     font-weight: bold;
     text-shadow: 4px 4px 3px #77f;
-  }
-  .design{
+}
+
+.design {
     background-color: aqua;
     text-align: center;
-  }
-  #identified {
+}
+
+#identified {
     background-color: red;
     font-weight: bold;
-    color:antiquewhite;
-  }
-  a {
+    color: antiquewhite;
+}
+
+a {
     color: blue;
-  }
-  a[href^="#"] {
+}
+
+a[href^="#"] {
     background-color: gold;
-  }
-  a[href*="example"] {
+}
+
+a[href*="example"] {
     background-color: silver;
-  }
-  a[href*="insensitive" i] {
+}
+
+a[href*="insensitive" i] {
     color: cyan;
-  }
-  a[href*="cAsE" s] {
+}
+
+a[href*="cAsE" s] {
     color: pink;
-  }
-  a[href$=".com"] {
+}
+
+a[href$=".com"] {
     color: red;
-  }
-  a[href^="https"][href$=".org"] {
+}
+
+a[href^="https"][href$=".org"] {
     color: green;
-  } 
+}
+
 div[lang] {
     font-weight: bold;
-  }
-  div:not([lang]) {
+}
+
+div:not([lang]) {
     font-style: italic;
-  }
-  div[lang~="en-us"] {
+}
+
+div[lang~="en-us"] {
     color: blue;
-  }
-  div[lang="pt"] {
+}
+
+div[lang="pt"] {
     color: green;
-  }
-  div[lang|="zh"] {
+}
+
+div[lang|="zh"] {
     color: red;
-  }
-  div[data-lang="zh-TW"] {
+}
+
+div[data-lang="zh-TW"] {
     color: purple;
-  }
+}
+
 ol[type="a"] {
     list-style-type: lower-alpha;
     background: red;
-  }
-  
-  ol[type="b" s] {
+}
+
+ol[type="b" s] {
     list-style-type: lower-alpha;
     background: lime;
-  }
-  
-  ol[type="B" s] {
+}
+
+ol[type="B" s] {
     list-style-type: upper-alpha;
     background: grey;
-  }
-  
-  ol[type="c"] {
+}
+
+ol[type="c"] {
     list-style-type: upper-alpha;
     background: green;
-  }/*
-  .bg{
-    background-color: black;
-  }*/li {
-  list-style-type: disc;
+}
+
+li {
+    list-style-type: disc;
 }
 
 li li {
-  list-style-type: circle;
+    list-style-type: circle;
 }
+
 span {
     background-color: aqua;
-  }
-  
-  div > span {
+}
+
+div>span {
     background-color: yellow;
-  }
-  p ~ span {
+}
+
+p~span {
     color: red;
-  }
-  li:first-of-type + li {
+}
+
+li:first-of-type+li {
     color: red;
-  }
-  
-  
-    
+}
